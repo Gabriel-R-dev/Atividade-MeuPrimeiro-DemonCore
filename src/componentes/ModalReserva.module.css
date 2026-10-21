@@ -1,0 +1,149 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(12, 13, 10, 0.85);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.2s ease;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow);
+  z-index: 1001;
+  pointer-events: auto;
+  animation: slideUp 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 8px;
+  z-index: 1002;
+}
+
+.fechar:hover {
+  color: var(--yellow);
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.titulo {
+  margin: 0 0 6px;
+  font-size: 22px;
+  color: var(--text-h);
+}
+
+.subtitulo {
+  margin: 0 0 18px;
+  font-size: 14px;
+  color: #b8c494;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.input,
+.select {
+  font: inherit;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.input:focus,
+.select:focus {
+  outline: 2px solid var(--yellow);
+  outline-offset: 2px;
+  border-color: var(--yellow);
+}
+
+.erro {
+  border-color: var(--danger);
+}
+
+.msgErro {
+  margin: 0;
+  font-size: 12px;
+  color: var(--danger);
+}
+
+.acoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.acoes > * {
+  flex: 1;
+}
+
+.sucesso {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--lime);
+  text-align: center;
+}
+
+.mensagem {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text);
+  line-height: 150%;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .modal {
+    margin: 16px;
+    padding: 22px 18px;
+  }
+
+  .acoes {
+    flex-direction: column;
+  }
+}

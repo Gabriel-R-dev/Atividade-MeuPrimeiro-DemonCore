@@ -1,0 +1,120 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 32px;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.seio,
+.selo {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 8px 14px;
+  border: 2px dashed var(--yellow);
+  border-radius: 10px;
+  background: rgba(245, 208, 0, 0.12);
+  color: var(--yellow);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.titulo {
+  margin: 0 0 14px;
+  font-size: 32px;
+  line-height: 115%;
+  letter-spacing: 0.5px;
+}
+
+.descricao {
+  margin: 0 0 20px;
+  font-size: 17px;
+  line-height: 155%;
+  color: var(--text);
+}
+
+.preco {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.precoAntigo {
+  font-size: 16px;
+  color: #8a916b;
+  text-decoration: line-through;
+}
+
+.precoPromocional {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--lime);
+}
+
+.botaoReservar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--yellow);
+  color: #1c1a00;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 24px;
+  font-weight: 800;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 0 24px rgba(245, 208, 0, 0.45);
+  transition: transform 0.1s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+.botaoReservar:hover:not(:disabled) {
+  opacity: 0.92;
+  box-shadow: 0 0 32px rgba(245, 208, 0, 0.6);
+}
+
+.botaoReservar:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.botaoReservar:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .preview {
+    aspect-ratio: 1;
+    order: -1;
+  }
+
+  .titulo {
+    font-size: 26px;
+  }
+
+  .precoPromocional {
+    font-size: 22px;
+  }
+}

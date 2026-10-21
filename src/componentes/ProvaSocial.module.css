@@ -1,0 +1,68 @@
+.secao {
+  padding-top: 8px;
+}
+
+.tituloSecao {
+  margin: 0 0 8px;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.subtitulo {
+  margin: 0 0 28px;
+  font-size: 15px;
+  text-align: center;
+  color: #b8c494;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.card::before {
+  content: '"';
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  font-size: 48px;
+  color: rgba(245, 208, 0, 0.18);
+  line-height: 1;
+}
+
+.texto {
+  margin: 0 0 14px;
+  font-size: 16px;
+  color: var(--text);
+  line-height: 150%;
+}
+
+.autor {
+  margin: 0;
+  font-size: 14px;
+  color: var(--yellow);
+  font-weight: 700;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

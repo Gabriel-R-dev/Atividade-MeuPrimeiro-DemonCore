@@ -1,0 +1,257 @@
+Prompt para IA — Landing Page do Demon Core
+1. Objetivo do projeto
+
+Desenvolva uma landing page completa, navegável e visualmente marcante para um produto fictício chamado Demon Core, uma sátira de brinquedos científicos e kits educativos comercializados em propagandas exageradas dos anos 1980 e 1990.
+
+O projeto faz parte de uma atividade acadêmica de Front-end Integrado com IA. O objetivo é criar um protótipo de página de vendas com uma proposta extremamente inusitada, utilizando humor absurdo, publicidade exagerada e uma estética retrô.
+
+O produto deve parecer algo que uma empresa fictícia venderia com absoluta seriedade, embora sua proposta seja completamente absurda.
+
+2. Conceito do produto
+
+O Demon Core é um brinquedo científico fictício que promete transformar qualquer jovem em um pequeno gênio da ciência.
+
+Sua embalagem apresenta um núcleo luminoso, botões decorativos e gráficos incompreensíveis.
+
+Importante: o produto não deve conter instruções de fabricação de armas, experimentos perigosos ou orientações que possam colocar alguém em risco.
+
+3. Público-alvo e tom de comunicação
+
+O público-alvo são jovens e adultos que gostam de humor nonsense, sátiras publicitárias e produtos fictícios.
+
+O tom da comunicação deve ser:
+Exageradamente confiante.
+Corporativo, apesar do absurdo.
+Nostálgico e inspirado em comerciais antigos.
+Irônico, mas sem ofender grupos sociais, religiosos ou políticos.
+Repleto de promessas obviamente ridículas.
+
+Exemplos de frases:
+
+"A ciência nunca esteve tão desnecessariamente brilhante!"
+"Aprovado por 97% dos pais que não leram o manual."
+"Desenvolva o raciocínio científico e confunda seus vizinhos!"
+"Oferta especial: Compre agora e receba a chave de fenda inclusa!!!"
+
+Essas frases são fictícias e devem funcionar como piadas, não como alegações científicas reais.
+
+4. Identidade visual
+
+Crie uma identidade visual inspirada em brinquedos educativos e anúncios de televendas dos anos 1980 e 1990.
+
+Paleta de cores
+Amarelo intenso.
+Azul elétrico.
+Preto para contraste.
+Branco ou bege para áreas que imitam embalagens antigas.
+Tipografia
+
+Utilize títulos grandes, expressivos e chamativos, com fontes retrô ou fontes sem serifa pesadas. Para textos secundários, priorize a legibilidade.
+
+Elementos gráficos
+Explosões gráficas de quadrinhos.
+Selos fictícios de aprovação.
+Estrelas, raios e setas.
+Etiquetas de promoção.
+Texturas discretas de impressão antiga.
+Ilustrações científicas propositalmente exageradas.
+Ícones de laboratório estilizados.
+
+Evite deixar a página visualmente poluída. O resultado deve parecer uma campanha publicitária profissional que abraçou o absurdo de propósito.
+
+5. Estrutura obrigatória da landing page
+A. Header
+
+Crie um cabeçalho com:
+Logotipo fictício do Núcleo do Demônio.
+Navegação por âncoras para as principais seções.
+Botão de CTA com o texto "Quero meu núcleo!".
+O cabeçalho deve funcionar em telas de computador e dispositivos móveis.
+
+B. Hero section
+
+A primeira seção deve apresentar imediatamente o produto.
+
+Inclua:
+
+Um título impactante, como "A ciência nunca foi tão suspeitamente divertida!".
+Uma descrição curta e engraçada.
+Uma imagem principal da embalagem fictícia do produto.
+Um preço promocional fictício.
+Um botão "Reservar meu kit".
+Um selo humorístico como "Aprovado pelo Departamento de Ideias Questionáveis e totalmente seguras".
+
+A composição deve chamar a atenção nos primeiros segundos.
+
+C. Benefícios e diferenciais
+
+Apresente pelo menos quatro benefícios fictícios em cards.
+
+Exemplos:
+
+Você será brilhante (Por alguns segundos...).
+Desenvolve habilidades avançadas de apertar botões (Que fazem kaboom!).
+Inclui um manual com 400 páginas de explicações desnecessárias (Ou necessárias... Depende de você!).
+Oferece certificado oficial de "Pequeno Gênio Suspeito" (É válido apenas no Maranhão).
+
+Os benefícios devem ser claramente humorísticos, sem promessas reais de saúde, desempenho científico ou segurança e inclua nos benefícios ficticios os textos entre parentesis "()".
+
+D. Apresentação do produto
+
+Mostre o conteúdo da embalagem por meio da imagem anexada com o nome de "Conteúdo":
+
+Inclua legendas curtas e engraçadas.
+
+E. Como funciona
+
+Crie uma seção com três etapas simples:
+
+Abra a embalagem com entusiasmo.
+Leia o manual e descubra que ele remete a outro manual.
+Receba seu certificado de cientista extraordinariamente confuso.
+
+A experiência deve ser totalmente fictícia e inofensiva.
+
+F. Prova social
+
+Crie de três a quatro avaliações fictícias, identificadas visualmente como parte da sátira.
+
+Exemplos:
+
+"Meu filho agora faz perguntas que nem o suporte técnico consegue responder." — Jane Doe.
+"O manual mudou minha vida. Ainda não consegui passar da página 12." — João Ninguém.
+"A embalagem Dissolveu!" — Serj Tankian.
+"Fluxo contínuo" - Eddie Vedder.
+
+Não utilize pessoas reais, depoimentos reais ou avaliações apresentadas como autênticas.
+
+G. Oferta e preço
+
+Apresente uma oferta fictícia com:
+
+Preço original e preço promocional inventados.
+Lista do que acompanha o kit.
+Um bônus absurdo, como um certificado de genialidade.
+Um botão de compra simulada.
+
+Não implemente cobrança real nem solicite informações financeiras.
+
+H. FAQ
+
+Inclua pelo menos cinco perguntas frequentes com respostas humorísticas.
+
+Sugestões:
+
+O núcleo é real?
+Preciso ter conhecimentos científicos?
+O produto vem com manual?
+Posso presentear alguém?
+O certificado é reconhecido por alguma instituição?
+Existe garantia?
+
+As respostas devem deixar claras e objetivas.
+
+I. CTA final
+
+Finalize com uma seção visualmente marcante, com o texto:
+
+"Seu futuro como cientista absurdamente confiante começa agora!"
+
+Adicione um botão "Reservar meu Demon Core".
+
+6. Funcionalidades obrigatórias
+
+A página precisa ser navegável e conter pelo menos um CTA funcional.
+
+Implemente:
+
+Navegação por âncoras.
+Botões de CTA que levem à oferta ou abram um modal.
+Modal ou formulário de reserva fictícia.
+Validação básica dos campos do formulário.
+Mensagem de confirmação após o envio.
+FAQ interativo, como acordeão, se for compatível com o nível da disciplina.
+
+O formulário pode solicitar nome, e-mail fictício e preferência de embalagem. Não deve enviar dados para servidores ou APIs.
+
+Não simule uma compra real: a ação deve terminar com uma mensagem indicando que a reserva é demonstrativa.
+
+7. Tecnologias e arquitetura
+
+Utilize:
+
+React.
+JavaScript.
+CSS Modules para estilização modularizada.
+Componentes funcionais e gerenciamento de estado.
+
+Escolha uma arquitetura entre:
+
+FSD (Feature-Sliced Design): organize o projeto por camadas e funcionalidades, sem adicionar complexidade desnecessária.
+
+Explique a arquitetura escolhida no README e mantenha uma organização consistente.
+
+Não utilize backend, banco de dados ou APIs externas. Todos os dados devem ser mockados.
+
+Evite instalar bibliotecas desnecessárias ou utilizar recursos avançados que não sejam essenciais à atividade.
+
+8. Imagens geradas por IA
+
+Utilize as imagens da pasta para representar:
+
+A embalagem do produto "Embalagem".
+O núcleo fictício "Diversao".
+Os acessórios do kit "Conteudo".
+
+As imagens devem seguir uma direção de arte consistente, inspirada em fotografia de produtos e anúncios impressos dos anos 1980 e 1990.
+
+Se houver ferramenta de geração de imagens disponível, gere os arquivos e salve-os localmente no projeto. Caso contrário, prepare espaços para as imagens e documente quais imagens precisam ser geradas.
+
+Não invente caminhos de arquivos que não existam. Utilize imagens locais verificadas ou placeholders claramente identificados.
+
+9. Responsividade e acessibilidade
+
+A página deve funcionar em:
+
+Computadores.
+Celulares.
+
+Inclua:
+
+Contraste adequado entre texto e fundo.
+Textos legíveis.
+Estados de foco nos elementos interativos.
+Botões com rótulos claros.
+Textos alternativos para imagens.
+Formulários com rótulos e mensagens de erro.
+10. README.md obrigatório
+
+Crie um README.md em português com:
+
+Nome do produto.
+Descrição e público-alvo.
+Arquitetura escolhida.
+Tecnologias utilizadas.
+Ideias iniciais e alternativas consideradas.
+Referências visuais e pesquisas realizadas.
+Limitações do protótipo.
+Instruções para executar o projeto localmente.
+
+Não invente pesquisas, ferramentas utilizadas ou decisões que não tenham ocorrido. Deixe campos para registrar essas informações durante o desenvolvimento.
+
+11. Critérios de qualidade
+
+O resultado final deve:
+
+Parecer uma landing page real de vendas, apesar do produto absurdo.
+Ter identidade visual consistente.
+Ser engraçado sem depender de ofensas ou temas proibidos.
+Incluir todas as seções exigidas no enunciado.
+Ter pelo menos um CTA funcional.
+Ser responsivo.
+Utilizar React e CSS Modules.
+Respeitar a arquitetura escolhida.
+Estar pronto para ser versionado em um repositório público no GitHub.
+
+Antes de finalizar, verifique se todos os requisitos foram atendidos. Apresente a estrutura de pastas e os arquivos completos necessários para executar o projeto.
+ 

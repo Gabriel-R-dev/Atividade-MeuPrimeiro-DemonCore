@@ -1,0 +1,154 @@
+.secao {
+  padding-top: 8px;
+}
+
+.tituloSecao {
+  margin: 0 0 10px;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.subtitulo {
+  margin: 0 0 22px;
+  font-size: 15px;
+  text-align: center;
+  color: #b8c494;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.precos {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.precoAntigo {
+  font-size: 17px;
+  color: #8a916b;
+  text-decoration: line-through;
+}
+
+.precoPromocional {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--lime);
+}
+
+.lista {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 22px;
+  box-shadow: var(--shadow);
+}
+
+.tituloLista {
+  margin: 0 0 12px;
+  font-size: 17px;
+  color: var(--text-h);
+}
+
+.lista ul {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lista li {
+  font-size: 15px;
+  color: var(--text);
+}
+
+.bonus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(245, 208, 0, 0.1);
+  border: 2px dashed var(--yellow);
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 24px;
+}
+
+.seloBonus {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #1c1a00;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tituloBonus {
+  margin: 0 0 8px;
+  font-size: 19px;
+  color: var(--text-h);
+}
+
+.textoBonus {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.botaoComprar {
+  width: 100%;
+  background: var(--danger);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 24px;
+  font-weight: 800;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 0 24px rgba(255, 77, 77, 0.45);
+  transition: transform 0.1s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+.botaoComprar:hover:not(:disabled) {
+  opacity: 0.92;
+  box-shadow: 0 0 32px rgba(255, 77, 77, 0.6);
+}
+
+.botaoComprar:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.botaoComprar:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.confirmacao {
+  background: rgba(182, 255, 60, 0.12);
+  border: 1px solid var(--lime);
+  border-radius: 12px;
+  padding: 18px 22px;
+  color: var(--lime);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 150%;
+  box-shadow: 0 0 24px rgba(182, 255, 60, 0.25);
+}
+
+@media (max-width: 600px) {
+  .precos {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+}

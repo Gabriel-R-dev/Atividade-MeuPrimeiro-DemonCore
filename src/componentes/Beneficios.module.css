@@ -1,0 +1,67 @@
+.secao {
+  padding-top: 8px;
+}
+
+.tituloSecao {
+  margin: 0 0 8px;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.subtitulo {
+  margin: 0 0 28px;
+  font-size: 15px;
+  text-align: center;
+  color: #b8c494;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.numero {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.tituloCard {
+  margin: 0 0 8px;
+  font-size: 17px;
+  color: var(--text-h);
+}
+
+.textoCard {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text);
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

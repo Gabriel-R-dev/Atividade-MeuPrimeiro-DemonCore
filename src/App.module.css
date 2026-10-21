@@ -1,0 +1,23 @@
+.app {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.rodape {
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  font-size: 14px;
+  text-align: center;
+}
