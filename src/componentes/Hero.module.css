@@ -48,7 +48,7 @@
 
 .precoAntigo {
   font-size: 16px;
-  color: #8a916b;
+  color: var(--text);
   text-decoration: line-through;
 }
 

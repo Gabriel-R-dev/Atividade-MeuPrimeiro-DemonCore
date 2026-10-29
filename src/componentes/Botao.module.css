@@ -48,7 +48,7 @@
 }
 
 .perigo {
-  background: var(--danger);
+  background: #9a2b2b;
   color: #ffffff;
   border-color: transparent;
   box-shadow: 0 0 20px rgba(255, 77, 77, 0.5);

@@ -29,7 +29,7 @@
 
 .precoAntigo {
   font-size: 17px;
-  color: #8a916b;
+  color: var(--text);
   text-decoration: line-through;
 }
 
@@ -106,7 +106,7 @@
 
 .botaoComprar {
   width: 100%;
-  background: var(--danger);
+  background: #9a2b2b;
   color: #ffffff;
   border: none;
   border-radius: 12px;

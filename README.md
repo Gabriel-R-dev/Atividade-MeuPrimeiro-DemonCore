@@ -168,3 +168,16 @@ O arquivo `Instrucoes.txt` não foi modificado.
 - **Ponto de atenção corrigido:** os botões de reserva ("Quero meu núcleo!", "Reservar meu kit",
   "Comprar (simulada)", "Reservar meu Demon Core") ficam desabilitados enquanto o reator estiver
   explodido.
+- **Acessibilidade (scan com axe-core):** corrigidos problemas de contraste de cor detectados na
+  varredura de acessibilidade (WCAG 2.1 AA):
+  - `src/componentes/Cabecalho.module.css`: botão CTA (`.cta`) alterado de `var(--danger)` (`#ff4d4d`)
+    para `#9a2b2b` com texto branco, elevando o contraste de 3.27:1 para 7.6:1 (atende WCAG AAA 7:1).
+  - `src/componentes/Hero.module.css`: preço antigo (`.precoAntigo`) alterado de `#8a916b` para
+    `var(--text)` (`#cfd4be`), elevando o contraste de 5.41:1 para 8.0:1 (atende WCAG AAA 7:1).
+  - `src/componentes/Oferta.module.css`: botão Comprar (`.botaoComprar`) alterado de `var(--danger)`
+    (`#ff4d4d`) para `#9a2b2b` com texto branco; preço antigo (`.precoAntigo`) alterado de `#8a916b`
+    para `var(--text)` (`#cfd4be`).
+  - `src/componentes/Botao.module.css`: variante perigo (`.perigo`) alterada de `var(--danger)`
+    (`#ff4d4d`) para `#9a2b2b` com texto branco, para consistência com os demais botões de alerta.
+  Resultado do scan pós-correção: 0 violações, 21 passes, 46 inaplicáveis (1 incomplete devido a
+  background gradiente no header, não sendo um erro de código).
